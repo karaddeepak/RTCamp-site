@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 99999;
+}
+#mainnav {
+    float: right;
+}
+.jumbotron {
+    background-image: url(../img/sl3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    margin-bottom: 0;
+    z-index: -1;
+}
+.jumbotron p {
+    padding-bottom: 0;
+    color: black;
+}
+.jumbotron h1 {
+    color: #FF0038;
+}
+#about h2,
+#services h2,
+#product h2,
+#clients h2 {
+    text-align: center;
+    color: #FF0038;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+#navbar {
+    background-color: #5F9EA0;
+    opacity: 0.85;
+}
+#navbar li>a {
+    color: black;
+}
+#navbar img {
+    padding-top: 5px;
+}
+.glyphicon {
+    color: #EC3B83;
+    float: right;
+}
+#servicedesc,
+#productdesc {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+#product .nav {
+    position: relative;
+    left: 450px;
+}
+.tab-content {
+    padding-top: 40px;
+}
+.tab-content img {
+    width: 80%;
+    height: 200px;
+}
+.nav-pills li>a {
+    color: #FF0038;
+}
+#product {
+    background-color: #F2F3F4;
+}
+#clients img {
+    height: 100px;
+    width: 130px;
+}
+
+#contact h3 {
+    text-align: center;
+    color: #FF0038;
+    font-weight: bold;
+}
+#contact li {
+    display: inline;
+    padding-right: 40px;
+}
+#about {
+    background-color: #F2F3F4;
+}
+#contact {
+    background-color: #5F9EA0;
+}
+.fa {
+    color: #FF0038;
+}
+.fa-facebook:hover {
+    color: blue;
+}
+.fa-twitter:hover {
+    color: #21ABCD;
+}
+.fa-linkedin:hover {
+    color: #ACE5EE;
+}
+.fa-github:hover {
+    color: #000000;
+}
+.fa-rss:hover {
+    color: #ED9121;
+}
+@media screen and (max-width: 900px) and (min-width: 120px) {
+    #product .nav {
+        position: relative;
+        left: 30px;
+    }
+}
